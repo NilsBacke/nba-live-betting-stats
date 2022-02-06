@@ -4,7 +4,6 @@ import SelectSearch from 'react-select-search'
 import { Bet, Game, Player, PlayerGameStats } from './types'
 import { getAllStatsForPlayers, getTodaysGames, searchForPlayerByLastName } from './api'
 import { formatInput } from './inputFormatter'
-import { testData } from './testdata'
 import { Row } from './components/Row'
 import { Loader } from './components/Spinner'
 import { ToastContainer } from 'react-toastify'
@@ -17,13 +16,17 @@ const Wrapper = styled.div`
 
 function App() {
 	const [isLoading, setIsLoading] = useState(false)
-	const [rawBets, setRawBets] = useState('')
+	const [rawBets, setRawBets] = useState(() => {
+		const saved = localStorage.getItem('rawBets')
+		return saved || ''
+	})
 	const [bets, setBets] = useState<Bet[]>([])
 	const [games, setGames] = useState<Game[]>([])
 	const [stats, setStats] = useState<PlayerGameStats[]>([])
 
 	const submit = () => {
 		if (rawBets) {
+			localStorage.setItem('rawBets', rawBets)
 			setIsLoading(true)
 			const b = formatInput(rawBets)
 			setBets(b)
