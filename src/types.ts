@@ -63,4 +63,5 @@ export interface Bet {
 	threesGoal?: string
 	playerId?: number
 	teamId?: number
+	overGoal?: string
 }

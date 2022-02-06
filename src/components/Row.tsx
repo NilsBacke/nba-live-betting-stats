@@ -56,7 +56,7 @@ export const Row: React.FC<Props> = ({ bet, stats, game }) => {
 			</span>
 			<Column>
 				<b>
-					{bet.playerName} - {team}
+					{bet.playerName} - {team} - {bet.overGoal}
 				</b>
 				<span>
 					{game.home_team.name} vs {game.visitor_team.name}
