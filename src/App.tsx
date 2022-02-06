@@ -3,7 +3,7 @@ import styled from 'styled-components'
 // import SelectSearch from 'react-select-search'
 import { Bet, Game, PlayerGameStats } from './types'
 import { getAllStatsForPlayers, getTodaysGames, searchForPlayerByLastName } from './api'
-import { formatInput } from './inputFormatter'
+import { formatInput, nilayFormatInput } from './inputFormatter'
 import { Row } from './components/Row'
 import { Loader } from './components/Spinner'
 import { ToastContainer } from 'react-toastify'
@@ -20,6 +20,7 @@ function App() {
 		const saved = localStorage.getItem('rawBets')
 		return saved || ''
 	})
+	const [checked, setChecked] = useState(false)
 	const [bets, setBets] = useState<Bet[]>([])
 	const [games, setGames] = useState<Game[]>([])
 	const [stats, setStats] = useState<PlayerGameStats[]>([])
@@ -28,7 +29,8 @@ function App() {
 		if (rawBets) {
 			localStorage.setItem('rawBets', rawBets)
 			setIsLoading(true)
-			const b = formatInput(rawBets)
+			const b = checked ? nilayFormatInput(rawBets) : formatInput(rawBets)
+			console.log(b)
 			setBets(b)
 			fetchData(b)
 		}
@@ -88,6 +90,8 @@ function App() {
 				search
 			/> */}
 			<textarea value={rawBets} onChange={(e) => setRawBets(e.target.value)} />
+			<label htmlFor='input'>Nilay Check This</label>
+			<input name='input' type='checkbox' checked={checked} onChange={(e) => setChecked(e.target.checked)} />
 			<button onClick={submit}>Submit</button>
 			{isLoading ? (
 				<Loader />
