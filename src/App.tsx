@@ -96,11 +96,23 @@ function App() {
 			{isLoading ? (
 				<Loader />
 			) : (
-				bets.map((r, i) => {
-					const stat = stats.find((s) => s.player.id === r.playerId)
-					const game = games.find((g) => g.home_team.id === r.teamId || g.visitor_team.id === r.teamId)!
-					return <Row bet={r} stats={stat} game={game} key={r.playerName! + i} />
-				})
+				bets
+					.sort((a, b) => {
+						const game1 = games!.find((g) => g.home_team.id === a.teamId || g.visitor_team.id === a.teamId)!
+						const game2 = games!.find((g) => g.home_team.id === b.teamId || g.visitor_team.id === b.teamId)!
+						if (!game1 || !game2) return 0
+
+						return (
+							Number(game1.status === 'Final') - Number(game2.status === 'Final') ||
+							Number(game1.status.endsWith('ET')) - Number(game2.status.endsWith('ET')) ||
+							game1.period - game2.period
+						)
+					})
+					.map((r, i) => {
+						const stat = stats.find((s) => s.player.id === r.playerId)
+						const game = games.find((g) => g.home_team.id === r.teamId || g.visitor_team.id === r.teamId)!
+						return <Row bet={r} stats={stat} game={game} key={r.playerName! + i} />
+					})
 			)}
 			<ToastContainer />
 		</Wrapper>
