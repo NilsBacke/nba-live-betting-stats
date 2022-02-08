@@ -21,26 +21,26 @@ const Column = styled.div`
 
 interface Props {
 	bet: Bet
-	game: Game
+	game?: Game
 	stats?: PlayerGameStats
 }
 
 export const Row: React.FC<Props> = ({ bet, stats, game }) => {
-	const team = bet.teamId === game.home_team.id ? game.home_team.name : game.visitor_team.name
+	const team = game && bet.teamId === game.home_team.id ? game.home_team.name : game.visitor_team.name
 
 	let pointsOnTrack = false
-	if (game.period > 0 && stats && bet.pointsGoal && stats.pts / Number(bet.pointsGoal) > 1 - 1 / game.period) {
+	if (game && game.period > 0 && stats && bet.pointsGoal && stats.pts / Number(bet.pointsGoal) > 1 - 1 / game.period) {
 		pointsOnTrack = true
 	}
 	let threesOnTrack = false
-	if (game.period > 0 && stats && bet.threesGoal && stats.fg3m / Number(bet.threesGoal) > 1 - 1 / game.period) {
+	if (game && game.period > 0 && stats && bet.threesGoal && stats.fg3m / Number(bet.threesGoal) > 1 - 1 / game.period) {
 		threesOnTrack = true
 	}
 
 	let color = 'beige'
-	if (game.status === 'Final') {
+	if (game?.status === 'Final') {
 		color = 'transparent'
-	} else if (game.status.endsWith('ET')) {
+	} else if (game?.status.endsWith('ET')) {
 		color = 'lightgrey'
 	} else if (pointsOnTrack && threesOnTrack) {
 		color = 'lightgreen'
@@ -52,17 +52,17 @@ export const Row: React.FC<Props> = ({ bet, stats, game }) => {
 		<Container color={color}>
 			<span>{bet.toWin}</span>
 			<span>
-				{game.status} {game.time && `-`} {game.time}
+				{game?.status} {game?.time && `-`} {game?.time}
 			</span>
 			<Column>
 				<b>
 					{bet.playerName} - {team} - {bet.overGoal}
 				</b>
 				<span>
-					{game.home_team.name} vs {game.visitor_team.name}
+					{game?.home_team.name} vs {game?.visitor_team.name}
 				</span>
 				<span>
-					{game.home_team_score} - {game.visitor_team_score}
+					{game?.home_team_score} - {game?.visitor_team_score}
 				</span>
 			</Column>
 			<Column>

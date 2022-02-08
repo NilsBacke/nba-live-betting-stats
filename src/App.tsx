@@ -110,7 +110,7 @@ function App() {
 					})
 					.map((r, i) => {
 						const stat = stats.find((s) => s.player.id === r.playerId)
-						const game = games.find((g) => g.home_team.id === r.teamId || g.visitor_team.id === r.teamId)!
+						const game = games.find((g) => g.home_team.id === r.teamId || g.visitor_team.id === r.teamId)
 						return <Row bet={r} stats={stat} game={game} key={r.playerName! + i} />
 					})
 			)}
