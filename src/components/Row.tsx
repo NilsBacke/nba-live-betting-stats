@@ -26,7 +26,7 @@ interface Props {
 }
 
 export const Row: React.FC<Props> = ({ bet, stats, game }) => {
-	const team = game && bet.teamId === game.home_team.id ? game.home_team.name : game.visitor_team.name
+	const team = game && (bet.teamId === game.home_team.id ? game.home_team.name : game.visitor_team.name)
 
 	let pointsOnTrack = false
 	if (game && game.period > 0 && stats && bet.pointsGoal && stats.pts / Number(bet.pointsGoal) > 1 - 1 / game.period) {
