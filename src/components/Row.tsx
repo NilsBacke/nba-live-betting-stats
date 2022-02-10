@@ -29,11 +29,11 @@ export const Row: React.FC<Props> = ({ bet, stats, game }) => {
 	const team = game && (bet.teamId === game.home_team.id ? game.home_team.name : game.visitor_team.name)
 
 	let pointsOnTrack = false
-	if (game && game.period > 0 && stats && bet.pointsGoal && stats.pts / Number(bet.pointsGoal) > 1 - 1 / game.period) {
+	if (game && game.period > 0 && stats && bet.pointsGoal && stats.pts / Number(bet.pointsGoal) > game.period / 4) {
 		pointsOnTrack = true
 	}
 	let threesOnTrack = false
-	if (game && game.period > 0 && stats && bet.threesGoal && stats.fg3m / Number(bet.threesGoal) > 1 - 1 / game.period) {
+	if (game && game.period > 0 && stats && bet.threesGoal && stats.fg3m / Number(bet.threesGoal) > game.period / 4) {
 		threesOnTrack = true
 	}
 
