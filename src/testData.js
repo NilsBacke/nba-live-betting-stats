@@ -2,227 +2,383 @@ export const testData = `DATE
 TIME
 AMOUNT
 TOTAL BALANCE
-2/6/22
-3:44 PM
-Placed - Single
-To Win $ 10.00
-Milwaukee Bucks -4 (-105)
-(555) Milwaukee Bucks @ (556) L.A. Clippers
-
-CASH OUT
-$ 10.50
-2/6/22
-3:40 PM
+2/25/22
+6:18 PM
 Placed - 5 Team Parlay
-To Win $ 128.00
-CLE to win against IND
-Cleveland Cavaliers vs Indiana Pacers
-CLE O110.5 Team Total Points
-Cleveland Cavaliers vs Indiana Pacers
-CLE 1st Half Winner
-Cleveland Cavaliers vs Indiana Pacers
-Isaac Okoro of the Cleveland Cavaliers will score 15 or more points against the Indiana Pacers
-Cleveland Cavaliers vs Indiana Pacers
-Isaac Okoro of the Cleveland Cavaliers will score 3 or more three point field goals against the Indiana Pacers
-Cleveland Cavaliers vs Indiana Pacers
-2/6/22
-3:35 PM
+To Win $ 147.00
+WAS to win against SA
+Washington Wizards vs San Antonio Spurs
+WAS O111.5 Team Total Points
+Washington Wizards vs San Antonio Spurs
+WAS 1st Half Winner
+Washington Wizards vs San Antonio Spurs
+Rui Hachimura of the Washington Wizards will score 3 or more three point field goals against the San Antonio Spurs
+Washington Wizards vs San Antonio Spurs
+Rui Hachimura of the Washington Wizards will score over 12.5 points
+Washington Wizards vs San Antonio Spurs
+2/25/22
+6:16 PM
 Placed - 5 Team Parlay
-To Win $ 303.00
-BKN to win against DEN
-Denver Nuggets vs Brooklyn Nets
-BKN 1st Half Winner
-Denver Nuggets vs Brooklyn Nets
-BKN O109.5 Team Total Points
-Denver Nuggets vs Brooklyn Nets
-Blake Griffin of the Brooklyn Nets will score 13 or more points against the Denver Nuggets
-Denver Nuggets vs Brooklyn Nets
-Blake Griffin of the Brooklyn Nets will score 3 or more three point field goals against the Denver Nuggets
-Denver Nuggets vs Brooklyn Nets
-2/6/22
-3:33 PM
+To Win $ 270.00
+WAS to win against SA
+Washington Wizards vs San Antonio Spurs
+WAS O111.5 Team Total Points
+Washington Wizards vs San Antonio Spurs
+WAS 1st Half Winner
+Washington Wizards vs San Antonio Spurs
+Deni Avdija of the Washington Wizards will score 17 or more points against the San Antonio Spurs
+Washington Wizards vs San Antonio Spurs
+Deni Avdija of the Washington Wizards will score 3 or more three point field goals against the San Antonio Spurs
+Washington Wizards vs San Antonio Spurs
+2/25/22
+6:12 PM
+Placed - 5 Team Parlay
+To Win $ 347.00
+LAL to win against LAC
+Los Angeles Lakers vs Los Angeles Clippers
+LAL O111.5 Team Total Points
+Los Angeles Lakers vs Los Angeles Clippers
+LAL 1st Half Winner
+Los Angeles Lakers vs Los Angeles Clippers
+Russell Westbrook of the Los Angeles Lakers will score 24 or more points against the Los Angeles Clippers
+Los Angeles Lakers vs Los Angeles Clippers
+Russell Westbrook of the Los Angeles Lakers will score 4 or more three point field goals against the Los Angeles Clippers
+Los Angeles Lakers vs Los Angeles Clippers
+2/25/22
+6:12 PM
+Placed - 5 Team Parlay
+To Win $ 261.00
+LAC to win against LAL
+Los Angeles Lakers vs Los Angeles Clippers
+LAC O110.5 Team Total Points
+Los Angeles Lakers vs Los Angeles Clippers
+LAC 1st Half Winner
+Los Angeles Lakers vs Los Angeles Clippers
+Marcus Morris Sr. of the Los Angeles Clippers will score 5 or more three point field goals against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+Marcus Morris Sr. of the Los Angeles Clippers will score 25 or more points against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+2/25/22
+6:11 PM
 Placed - 3 Team Parlay
-To Win $ 21.00
-MIN to win against DET
-Minnesota Timberwolves vs Detroit Pistons
-Jaden McDaniels of the Minnesota Timberwolves will score 3 or more three point field goals against the Detroit Pistons
-Minnesota Timberwolves vs Detroit Pistons
-Jaden McDaniels of the Minnesota Timberwolves will score 13 or more points against the Detroit Pistons
-Minnesota Timberwolves vs Detroit Pistons
-2/6/22
-3:28 PM
+To Win $ 416.00
+PHO to win against NO
+Phoenix Suns vs New Orleans Pelicans
+Jae Crowder of the Phoenix Suns will score 23 or more points against the New Orleans Pelicans
+Phoenix Suns vs New Orleans Pelicans
+Jae Crowder of the Phoenix Suns will score 5 or more three point field goals against the New Orleans Pelicans
+Phoenix Suns vs New Orleans Pelicans
+2/25/22
+6:10 PM
+Placed - 3 Team Parlay
+To Win $ 50.00
+PHO to win against NO
+Phoenix Suns vs New Orleans Pelicans
+Mikal Bridges of the Phoenix Suns will score 4 or more three point field goals against the New Orleans Pelicans
+Phoenix Suns vs New Orleans Pelicans
+Mikal Bridges of the Phoenix Suns will score 22 or more points against the New Orleans Pelicans
+Phoenix Suns vs New Orleans Pelicans
+2/25/22
+6:10 PM
 Placed - 5 Team Parlay
-To Win $ 208.00
-CHI to win against PHI
-Chicago Bulls vs Philadelphia 76ers
-CHI O108.5 Team Total Points
-Chicago Bulls vs Philadelphia 76ers
-CHI 1st Half Winner
-Chicago Bulls vs Philadelphia 76ers
-Ayo Dosunmu of the Chicago Bulls will score 16 or more points against the Philadelphia 76ers
-Chicago Bulls vs Philadelphia 76ers
-Ayo Dosunmu of the Chicago Bulls will score 4 or more three point field goals against the Philadelphia 76ers
-Chicago Bulls vs Philadelphia 76ers
-2/6/22
-12:08 PM
-Placed - 5 Team Parlay
-To Win $ 1404.00
-HOU to win against NO
-Houston Rockets vs New Orleans Pelicans
-HOU O111.5 Team Total Points
-Houston Rockets vs New Orleans Pelicans
-HOU 1st Half Winner
-Houston Rockets vs New Orleans Pelicans
-Jalen Green of the Houston Rockets will score 30 or more points against the New Orleans Pelicans
-Houston Rockets vs New Orleans Pelicans
-Jalen Green of the Houston Rockets will score 5 or more three point field goals against the New Orleans Pelicans
-Houston Rockets vs New Orleans Pelicans
-2/6/22
-12:07 PM
-Placed - 5 Team Parlay
-To Win $ 137.00
-Brandon Ingram of the New Orleans Pelicans will score 30 or more points against the Houston Rockets
-Houston Rockets vs New Orleans Pelicans
-Brandon Ingram of the New Orleans Pelicans will score 4 or more three point field goals against the Houston Rockets
-Houston Rockets vs New Orleans Pelicans
-NO to win against HOU
-Houston Rockets vs New Orleans Pelicans
+To Win $ 1447.00
+NO to win against PHO
+Phoenix Suns vs New Orleans Pelicans
+NO O111.5 Team Total Points
+Phoenix Suns vs New Orleans Pelicans
 NO 1st Half Winner
-Houston Rockets vs New Orleans Pelicans
-NO O116.5 Team Total Points
-Houston Rockets vs New Orleans Pelicans
-2/6/22
-12:06 PM
+Phoenix Suns vs New Orleans Pelicans
+Brandon Ingram of the New Orleans Pelicans will score 31 or more points against the Phoenix Suns
+Phoenix Suns vs New Orleans Pelicans
+Brandon Ingram of the New Orleans Pelicans will score 5 or more three point field goals against the Phoenix Suns
+Phoenix Suns vs New Orleans Pelicans
+2/25/22
+6:09 PM
 Placed - 5 Team Parlay
-To Win $ 825.00
-ORL to win against BOS
-Orlando Magic vs Boston Celtics
-ORL O102.5 Team Total Points
-Orlando Magic vs Boston Celtics
-ORL 1st Half Winner
-Orlando Magic vs Boston Celtics
-Cole Anthony of the Orlando Magic will score 26 or more points against the Boston Celtics
-Orlando Magic vs Boston Celtics
-Cole Anthony of the Orlando Magic will score 5 or more three point field goals against the Boston Celtics
-Orlando Magic vs Boston Celtics
-2/6/22
-12:05 PM
+To Win $ 548.00
+NO to win against PHO
+Phoenix Suns vs New Orleans Pelicans
+NO O111.5 Team Total Points
+Phoenix Suns vs New Orleans Pelicans
+NO 1st Half Winner
+Phoenix Suns vs New Orleans Pelicans
+Herbert Jones of the New Orleans Pelicans will score 3 or more three point field goals against the Phoenix Suns
+Phoenix Suns vs New Orleans Pelicans
+Herbert Jones of the New Orleans Pelicans will score 15 or more points against the Phoenix Suns
+Phoenix Suns vs New Orleans Pelicans
+2/25/22
+6:08 PM
+Placed - 4 Team Parlay
+To Win $ 159.00
+UTH to win against DAL
+Utah Jazz vs Dallas Mavericks
+UTH O112.5 Team Total Points
+Utah Jazz vs Dallas Mavericks
+Royce O'Neale of the Utah Jazz will score 16 or more points against the Dallas Mavericks
+Utah Jazz vs Dallas Mavericks
+Royce O'Neale of the Utah Jazz will score 4 or more three point field goals against the Dallas Mavericks
+Utah Jazz vs Dallas Mavericks
+2/25/22
+6:07 PM
+Placed - 4 Team Parlay
+To Win $ 146.00
+UTH to win against DAL
+Utah Jazz vs Dallas Mavericks
+UTH O112.5 Team Total Points
+Utah Jazz vs Dallas Mavericks
+Mike Conley of the Utah Jazz will score 5 or more three point field goals against the Dallas Mavericks
+Utah Jazz vs Dallas Mavericks
+Mike Conley of the Utah Jazz will score 21 or more points against the Dallas Mavericks
+Utah Jazz vs Dallas Mavericks
+2/25/22
+6:06 PM
 Placed - 5 Team Parlay
-To Win $ 3400.00
-ORL to win against BOS
-Orlando Magic vs Boston Celtics
-ORL O102.5 Team Total Points
-Orlando Magic vs Boston Celtics
-ORL 1st Half Winner
-Orlando Magic vs Boston Celtics
-Jalen Suggs of the Orlando Magic will score 27 or more points against the Boston Celtics
-Orlando Magic vs Boston Celtics
-Jalen Suggs of the Orlando Magic will score 3 or more three point field goals against the Boston Celtics
-Orlando Magic vs Boston Celtics
-2/6/22
-12:04 PM
-Placed - 5 Team Parlay
-To Win $ 1472.00
-DAL to win against ATL
-Dallas Mavericks vs Atlanta Hawks
-DAL O111.5 Team Total Points
-Dallas Mavericks vs Atlanta Hawks
+To Win $ 289.00
+DAL to win against UTH
+Utah Jazz vs Dallas Mavericks
+DAL O105.5 Team Total Points
+Utah Jazz vs Dallas Mavericks
 DAL 1st Half Winner
-Dallas Mavericks vs Atlanta Hawks
-Dorian Finney-Smith of the Dallas Mavericks will score 5 or more three point field goals against the Atlanta Hawks
-Dallas Mavericks vs Atlanta Hawks
-Dorian Finney-Smith of the Dallas Mavericks will score 24 or more points against the Atlanta Hawks
-Dallas Mavericks vs Atlanta Hawks
-2/6/22
-12:04 PM
+Utah Jazz vs Dallas Mavericks
+Jalen Brunson of the Dallas Mavericks will score 22 or more points against the Utah Jazz
+Utah Jazz vs Dallas Mavericks
+Jalen Brunson of the Dallas Mavericks will score 4 or more three point field goals against the Utah Jazz
+Utah Jazz vs Dallas Mavericks
+2/25/22
+6:04 PM
 Placed - 5 Team Parlay
-To Win $ 675.00
-DAL to win against ATL
-Dallas Mavericks vs Atlanta Hawks
-DAL O111.5 Team Total Points
-Dallas Mavericks vs Atlanta Hawks
+To Win $ 136.00
+MIN to win against PHI
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN O114.5 Team Total Points
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN 1st Half Winner
+Minnesota Timberwolves vs Philadelphia 76ers
+Jaden McDaniels of the Minnesota Timberwolves will score 13 or more points against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+Jaden McDaniels of the Minnesota Timberwolves will score 3 or more three point field goals against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+2/25/22
+6:04 PM
+Placed - 5 Team Parlay
+To Win $ 2121.00
+MIN to win against PHI
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN O114.5 Team Total Points
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN 1st Half Winner
+Minnesota Timberwolves vs Philadelphia 76ers
+Patrick Beverley of the Minnesota Timberwolves will score 4 or more three point field goals against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+Patrick Beverley of the Minnesota Timberwolves will score 24 or more points against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+2/25/22
+6:03 PM
+Placed - 5 Team Parlay
+To Win $ 286.00
+MIN to win against PHI
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN O114.5 Team Total Points
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN 1st Half Winner
+Minnesota Timberwolves vs Philadelphia 76ers
+Karl-Anthony Towns of the Minnesota Timberwolves will score 31 or more points against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+Karl-Anthony Towns of the Minnesota Timberwolves will score 5 or more three point field goals against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+2/25/22
+6:02 PM
+Placed - 5 Team Parlay
+To Win $ 198.00
+MIN to win against PHI
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN O114.5 Team Total Points
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN 1st Half Winner
+Minnesota Timberwolves vs Philadelphia 76ers
+D'Angelo Russell of the Minnesota Timberwolves will score 6 or more three point field goals against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+D'Angelo Russell of the Minnesota Timberwolves will score 26 or more points against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+2/25/22
+6:01 PM
+Placed - 5 Team Parlay
+To Win $ 154.00
+MIN to win against PHI
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN O114.5 Team Total Points
+Minnesota Timberwolves vs Philadelphia 76ers
+MIN 1st Half Winner
+Minnesota Timberwolves vs Philadelphia 76ers
+Anthony Edwards of the Minnesota Timberwolves will score 26 or more points against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+Anthony Edwards of the Minnesota Timberwolves will score 6 or more three point field goals against the Philadelphia 76ers
+Minnesota Timberwolves vs Philadelphia 76ers
+2/25/22
+5:57 PM
+Placed - 5 Team Parlay
+To Win $ 373.00
+NY to win against MIA
+New York Knicks vs Miami Heat
+NY O103.5 Team Total Points
+New York Knicks vs Miami Heat
+NY 1st Half Winner
+New York Knicks vs Miami Heat
+RJ Barrett Jr. of the New York Knicks will score 5 or more three point field goals against the Miami Heat
+New York Knicks vs Miami Heat
+RJ Barrett Jr. of the New York Knicks will score 27 or more points against the Miami Heat
+New York Knicks vs Miami Heat
+2/25/22
+5:56 PM
+Placed - 5 Team Parlay
+To Win $ 354.00
+NY to win against MIA
+New York Knicks vs Miami Heat
+NY O103.5 Team Total Points
+New York Knicks vs Miami Heat
+NY 1st Half Winner
+New York Knicks vs Miami Heat
+Julius Randle of the New York Knicks will score 23 or more points against the Miami Heat
+New York Knicks vs Miami Heat
+Julius Randle of the New York Knicks will score 5 or more three point field goals against the Miami Heat
+New York Knicks vs Miami Heat
+2/25/22
+5:55 PM
+Placed - 4 Team Parlay
+To Win $ 175.00
+MIA to win against NY
+New York Knicks vs Miami Heat
+MIA O108.5 Team Total Points
+New York Knicks vs Miami Heat
+P.J. Tucker of the Miami Heat will score 16 or more points against the New York Knicks
+New York Knicks vs Miami Heat
+P.J. Tucker of the Miami Heat will score 4 or more three point field goals against the New York Knicks
+New York Knicks vs Miami Heat
+2/25/22
+5:53 PM
+Placed - 4 Team Parlay
+To Win $ 180.00
+MIA to win against NY
+New York Knicks vs Miami Heat
+MIA O108.5 Team Total Points
+New York Knicks vs Miami Heat
+Kyle Lowry of the Miami Heat will score 6 or more three point field goals against the New York Knicks
+New York Knicks vs Miami Heat
+Kyle Lowry of the Miami Heat will score 26 or more points against the New York Knicks
+New York Knicks vs Miami Heat
+2/25/22
+5:51 PM
+Placed - 3 Team Parlay
+To Win $ 93.00
+ORL to win against HOU
+Orlando Magic vs Houston Rockets
+Gary Harris of the Orlando Magic will score 5 or more three point field goals against the Houston Rockets
+Orlando Magic vs Houston Rockets
+Gary Harris of the Orlando Magic will score 21 or more points against the Houston Rockets
+Orlando Magic vs Houston Rockets
+2/25/22
+5:51 PM
+Placed - 3 Team Parlay
+To Win $ 145.00
+ORL to win against HOU
+Orlando Magic vs Houston Rockets
+Chuma Okeke of the Orlando Magic will score 20 or more points against the Houston Rockets
+Orlando Magic vs Houston Rockets
+Chuma Okeke of the Orlando Magic will score 5 or more three point field goals against the Houston Rockets
+Orlando Magic vs Houston Rockets
+2/25/22
+5:49 PM
+Placed - 4 Team Parlay
+To Win $ 244.00
+HOU to win against ORL
+Orlando Magic vs Houston Rockets
+HOU 1st Half Winner
+Orlando Magic vs Houston Rockets
+Garrison Mathews of the Houston Rockets will score 5 or more three point field goals against the Orlando Magic
+Orlando Magic vs Houston Rockets
+Garrison Mathews of the Houston Rockets will score 21 or more points against the Orlando Magic
+Orlando Magic vs Houston Rockets
+2/25/22
+5:48 PM
+Placed - 4 Team Parlay
+To Win $ 451.00
+HOU to win against ORL
+Orlando Magic vs Houston Rockets
+HOU 1st Half Winner
+Orlando Magic vs Houston Rockets
+Alperen Sengun of the Houston Rockets will score 20 or more points against the Orlando Magic
+Orlando Magic vs Houston Rockets
+Alperen Sengun of the Houston Rockets will score 2 or more three point field goals against the Orlando Magic
+Orlando Magic vs Houston Rockets
+2/25/22
+2:45 PM
+Placed - 5 Team Parlay
+To Win $ 246.00
+LAC to win against LAL
+Los Angeles Lakers vs Los Angeles Clippers
+LAC O110.5 Team Total Points
+Los Angeles Lakers vs Los Angeles Clippers
+LAC 1st Half Winner
+Los Angeles Lakers vs Los Angeles Clippers
+Reggie Jackson of the Los Angeles Clippers will score 5 or more three point field goals against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+Reggie Jackson of the Los Angeles Clippers will score 25 or more points against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+2/25/22
+2:44 PM
+Placed - 5 Team Parlay
+To Win $ 2068.00
+LAC to win against LAL
+Los Angeles Lakers vs Los Angeles Clippers
+LAC O110.5 Team Total Points
+Los Angeles Lakers vs Los Angeles Clippers
+LAC 1st Half Winner
+Los Angeles Lakers vs Los Angeles Clippers
+Reggie Jackson of the Los Angeles Clippers will score 5 or more three point field goals against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+Reggie Jackson of the Los Angeles Clippers will score 34 or more points against the Los Angeles Lakers
+Los Angeles Lakers vs Los Angeles Clippers
+2/25/22
+2:43 PM
+Placed - 5 Team Parlay
+To Win $ 2127.00
+DAL to win against UTH
+Utah Jazz vs Dallas Mavericks
+DAL O106.5 Team Total Points
+Utah Jazz vs Dallas Mavericks
 DAL 1st Half Winner
-Dallas Mavericks vs Atlanta Hawks
-Dorian Finney-Smith of the Dallas Mavericks will score 21 or more points against the Atlanta Hawks
-Dallas Mavericks vs Atlanta Hawks
-Dorian Finney-Smith of the Dallas Mavericks will score 5 or more three point field goals against the Atlanta Hawks
-Dallas Mavericks vs Atlanta Hawks
-2/6/22
-12:02 PM
-Placed - 5 Team Parlay
-To Win $ 210.00
-ATL to win against DAL
-Dallas Mavericks vs Atlanta Hawks
-ATL O110.5 Team Total Points
-Dallas Mavericks vs Atlanta Hawks
-ATL 1st Half Winner
-Dallas Mavericks vs Atlanta Hawks
-De'Andre Hunter of the Atlanta Hawks will score 20 or more points against the Dallas Mavericks
-Dallas Mavericks vs Atlanta Hawks
-De'Andre Hunter of the Atlanta Hawks will score 4 or more three point field goals against the Dallas Mavericks
-Dallas Mavericks vs Atlanta Hawks
-2/6/22
-12:01 PM
+Utah Jazz vs Dallas Mavericks
+Dorian Finney-Smith of the Dallas Mavericks will score 23 or more points against the Utah Jazz
+Utah Jazz vs Dallas Mavericks
+Dorian Finney-Smith of the Dallas Mavericks will score 5 or more three point field goals against the Utah Jazz
+Utah Jazz vs Dallas Mavericks
+2/25/22
+2:42 PM
+Placed - 3 Team Parlay
+To Win $ 602.00
+ORL to win against HOU
+Orlando Magic vs Houston Rockets
+Cole Anthony of the Orlando Magic will score 6 or more three point field goals against the Houston Rockets
+Orlando Magic vs Houston Rockets
+Cole Anthony of the Orlando Magic will score 35 or more points against the Houston Rockets
+Orlando Magic vs Houston Rockets
+2/25/22
+2:42 PM
+Placed - 3 Team Parlay
+To Win $ 153.00
+ORL to win against HOU
+Orlando Magic vs Houston Rockets
+Cole Anthony of the Orlando Magic will score 26 or more points against the Houston Rockets
+Orlando Magic vs Houston Rockets
+Cole Anthony of the Orlando Magic will score 6 or more three point field goals against the Houston Rockets
+Orlando Magic vs Houston Rockets
+2/25/22
+2:41 PM
 Placed - 3 Team Parlay
 To Win $ 379.00
-MIN to win against DET
-Minnesota Timberwolves vs Detroit Pistons
-Patrick Beverley of the Minnesota Timberwolves will score 23 or more points against the Detroit Pistons
-Minnesota Timberwolves vs Detroit Pistons
-Patrick Beverley of the Minnesota Timberwolves will score 4 or more three point field goals against the Detroit Pistons
-Minnesota Timberwolves vs Detroit Pistons
-2/6/22
-12:00 PM
-Placed - 5 Team Parlay
-To Win $ 512.00
-DET to win against MIN
-Minnesota Timberwolves vs Detroit Pistons
-DET 1st Half Winner
-Minnesota Timberwolves vs Detroit Pistons
-DET O108.5 Team Total Points
-Minnesota Timberwolves vs Detroit Pistons
-Jerami Grant of the Detroit Pistons will score over 19.5 points
-Minnesota Timberwolves vs Detroit Pistons
-Jerami Grant of the Detroit Pistons will score 4 or more three point field goals against the Minnesota Timberwolves
-Minnesota Timberwolves vs Detroit Pistons
-2/6/22
-11:59 AM
-Placed - 5 Team Parlay
-To Win $ 1856.00
-DET to win against MIN
-Minnesota Timberwolves vs Detroit Pistons
-DET 1st Half Winner
-Minnesota Timberwolves vs Detroit Pistons
-DET O108.5 Team Total Points
-Minnesota Timberwolves vs Detroit Pistons
-Saddiq Bey of the Detroit Pistons will score 26 or more points against the Minnesota Timberwolves
-Minnesota Timberwolves vs Detroit Pistons
-Saddiq Bey of the Detroit Pistons will score 6 or more three point field goals against the Minnesota Timberwolves
-Minnesota Timberwolves vs Detroit Pistons
-2/6/22
-11:58 AM
-Placed - 5 Team Parlay
-To Win $ 1082.00
-DEN to win against BKN
-Denver Nuggets vs Brooklyn Nets
-DEN O117.5 Team Total Points
-Denver Nuggets vs Brooklyn Nets
-DEN 1st Half Winner
-Denver Nuggets vs Brooklyn Nets
-Monte Morris of the Denver Nuggets will score 27 or more points against the Brooklyn Nets
-Denver Nuggets vs Brooklyn Nets
-Monte Morris of the Denver Nuggets will score 5 or more three point field goals against the Brooklyn Nets
-Denver Nuggets vs Brooklyn Nets
-2/6/22
-11:55 AM
-Placed - 5 Team Parlay
-To Win $ 605.00
-DEN to win against BKN
-Denver Nuggets vs Brooklyn Nets
-DEN O117.5 Team Total Points
-Denver Nuggets vs Brooklyn Nets
-DEN 1st Half Winner
-Denver Nuggets vs Brooklyn Nets
-Will Barton of the Denver Nuggets will score 30 or more points against the Brooklyn Nets
-Denver Nuggets vs Brooklyn Nets
-Will Barton of the Denver Nuggets will score 5 or more three point field goals against the Brooklyn Nets`
+ORL to win against HOU
+Orlando Magic vs Houston Rockets
+Jalen Suggs of the Orlando Magic will score 4 or more three point field goals against the Houston Rockets
+Orlando Magic vs Houston Rockets
+Jalen Suggs of the Orlando Magic will score 28 or more points against the Houston Rockets
+Orlando Magic vs Houston Rockets`;

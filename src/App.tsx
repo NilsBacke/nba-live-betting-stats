@@ -49,7 +49,27 @@ function App() {
 				split.pop()
 				name = split.join(' ')
 			}
-			const players = await searchForPlayerByLastName(name)
+
+			// remove suffix
+			const split = name.split(' ')
+			if (split.length >= 3) {
+				name = split[0] + ' ' + split[1]
+			}
+			let players = await searchForPlayerByLastName(name)
+
+			console.log(name, players)
+
+			let triedAgain = false
+			if (players?.length === 0) {
+				if (name.includes('.')) {
+					name = name.replaceAll('.', '')
+					players = await searchForPlayerByLastName(name)
+					triedAgain = true
+				}
+				if (players?.length === 0) {
+					alert('could not find player for ' + name + (triedAgain ? ` And tried again with no dots` : ''))
+				}
+			}
 
 			let id = 0
 			let player

@@ -9,12 +9,14 @@ export const formatInput = (input: string): Bet[] => {
 		const overLine = lines.find((l) => l.includes('Team Total Points'))
 		const pointsLine = lines.find((l) => l.includes('points'))
 		const threesLine = lines.find((l) => l.includes('or more three point field goals'))
+
+		const pointsGoal = pointsLine?.split('will score ')[1].split(' ')[0];
 		if (pointsLine?.split(' of the')[0] && lines[1]) {
 			results.push({
 				toWin: lines[1],
 				overGoal: overLine?.split(' ')[1],
 				playerName: pointsLine?.split(' of the')[0],
-				pointsGoal: pointsLine?.split('will score ')[1].split(' ')[0],
+				pointsGoal: handleWeirdPointsLine(pointsLine, pointsGoal),
 				threesGoal: threesLine?.split('will score ')[1].split(' ')[0],
 			})
 		}
@@ -44,4 +46,11 @@ export const nilayFormatInput = (input: string): Bet[] => {
 		}
 	}
 	return results
+}
+
+const handleWeirdPointsLine = (pointsLine: string, currentPointsLine?: string) => {
+	if (currentPointsLine === 'over') {
+		return pointsLine?.split('will score over ')[1].split(' ')[0]
+	}
+	return currentPointsLine
 }
